@@ -1,0 +1,67 @@
+header {
+    background-color: rgb(193, 27, 24);
+    padding:10px 0 10px 10px;
+}
+
+footer {
+    background-color: rgb(193, 27, 24);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+th,td {
+    text-align: center;
+    padding: 10px 20px;
+    border:1px solid black;
+}
+
+th {
+    background-color: #ffbaba;
+}
+
+td {
+    background-color: #fde9e9;
+}
+
+main {
+    margin-left: 20px;
+}
+
+small {
+    display: block;
+}
+
+table input, textarea {
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+textarea {
+    height: 200px;
+}
